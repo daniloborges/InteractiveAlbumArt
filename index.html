@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Capa de Álbum Interativa</title>
+    <link href="estilo.css" rel="stylesheet"></link>
+    <style></style>
+  </head>
+  <body>
+    <h1>Isso ainda é um rascunho</h1>
+    <h1 id="capas-de-album-interativa">Capa de Álbum Interativa</h1>
+    <p>Nós sempre buscamos as melhores imagens para nossas capas de álbuns músicais.</p>
+    <div class="img">
+      <img src="imgs/k7-pink-floyd.jpg">
+      <img src="imgs/k7-domino.jpg">
+      <img src="imgs/vinil-kaoma-lambada.jpg">
+    </div>
+    <p>Mas o jeito que escutamos música mudou, tem tela e é interativo.</p>
+    <div class="img phone">
+      <img src="imgs/music-android.jpg">
+      <img src="imgs/music-iphone.jpg">
+      <img src="imgs/music-wp.png">
+    </div>
+    <h3 class='quote'>Então porque não permitirmos que as capas dos albuns mudem também?</h3>
+    <h2 id="responsivas">Versão 1 - Capas responsivas</h2>
+    <p>A grande maioria das capas são imagens: fotos ou artes personalizadas, e que devem simplesmente permanecer como estão: belas imagens.</p>
+    <div class="img v1">
+      <img src="imgs/RI-LadyGaga.png">
+      <img src="imgs/RI-W-LadyGaga.png">
+      <img src="imgs/RI-Ladyhawke.png">
+      <img src="imgs/RI-W-Ladyhawke.png">
+    </div>
+    <p>Para cada resolução pode-se passar a informação de posicionamento e zoom ou uma imagem específica. <br>
+      O aplicativo pode exibir os botões de pausar, retroceder, etc sobre as imagens de modo a complementar a arte.</p>
+
+    <p><strong>Gif's também:</strong> O tumblr <a href="http://animatedalbums.tumblr.com/">Animated Albums</a> tem um trabalho bem interessante, podemos pega-lo como base e deixá-los responsivos.</p>
+    <h2 id="ricas">Versão 2 - Capas ricas</h2>
+    <p>Outras capas permitem que possam ser mais ricas, contendo animações e customizações únicas, onde a capa pode ser o visualizador de efeitos da música, ou conter uma arte específica para cada música.</p>
+    <p class="info">Um exemplo simples. Passe o mouse para ver widescreen</p>
+    <!-- <iframe src="samples/saturdays-cutcopy.html" width="350" height="500"></iframe> -->
+    <div class="saturdays"><div></div></div>
+    <p class="info"><a href="http://www.last.fm/music/Cut+Copy/Saturdays/">Cut Copy - Saturdays</a></p>
+    <p>Neste exemplo a capa é responsiva e animada, simulando um celular e um computador, informações como o nome da música pode ser exibida juntamente com a arte.</p>
+
+    <p>Por obter a iformação da faixa que está tocando, a capa também pode se customizar, por exemplo: em uma coletânea comemorativa de um artista (como o Greatest Hits do Foo Figthers ou Celebration da Madonna) para cada faixa a arte pode se ajustar para a capa do álbum original.</p>
+
+    <p>Um exemplo existente é a <a href="http://www.imogenheap.co.uk/sparksinteractive/">capa interativa do álbum Sparks</a> da Imogen Heap. A capa é feita de várias fotos dos pés dos fãs dela e o site permite ver quem é o dono(a) do pé.</p>
+
+    <h2 id="interativas">Versão 3 - Capas interativas</h2>
+    <p>As capas interativas, além do potencial acima, também exibe os controles de reprodução e exibem o tempo da faixa atual. São praticamente novas telas de 'Em reprodução'.</p>
+
+    <h1 id="tecnologia-web">Tecnologia web</h1>
+    <p>O melhor é que é feito com tecnologia web, possibilitando montar capas de álbuns com trecho de vídeo, webgl, acelerometro, e tudo mais!
+    É um pacote zip com extensão .albumart, contendo o HTML, js e tudo que for necessário, o reprodutor de música carrega o arquivo e exibe a arte,
+    o melhor disso: com pouco trabalho você pode criar e customizar qualquer capa.</p>
+    <blockquote>
+      <p>Se a capa for totalmente interativa você pode usá-la para todas as suas músicas, como uma tela de reprodução personalizada. O céu é o limite :D</p>
+    </blockquote>
+    <h2>Observações</h2>
+    <p>Vale destacar que a proposta é somente para as capas de álbuns e não para a interface em si: os botões de avançar, retroceder ou tocar/pausar e
+      outros elementos, salvo quando a capa for totalmente interativaa, é o aplicativo que  deve implementar.
+  </body>
+</html>
